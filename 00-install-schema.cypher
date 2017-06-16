@@ -1,0 +1,2 @@
+CREATE CONSTRAINT ON (t:Tweet) ASSERT t.id_str IS UNIQUE;
+CREATE CONSTRAINT ON (u:User) ASSERT user.screen_name IS UNIQUE;
